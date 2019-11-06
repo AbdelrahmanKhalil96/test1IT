@@ -35,19 +35,30 @@ namespace test1
         {
             this.Close();
         }
-
+        int counter = 1;
         private void btnLogin_Click(object sender, EventArgs e)
-        {   
-            cn1.Open();
-            cmd1.CommandText = "SELECT [LastName],[Passowrd] FROM [Northwind].[dbo].[Employees] where LastName = '" + txtLogin.Text + "' and Passowrd = '" + txtPass.Text + "'";
-            String a=Convert.ToString(cmd1.ExecuteScalar());
-            if (a != "")
+        {
+            if (counter <= 3)
             {
-                frmDB frm2 = new frmDB();
-                frm2.Show();
+                cn1.Open();
+                cmd1.CommandText = "SELECT [LastName],[Passowrd] FROM [Northwind].[dbo].[Employees] where LastName = '" + txtLogin.Text + "' and Passowrd = '" + txtPass.Text + "'";
+                String a = Convert.ToString(cmd1.ExecuteScalar());
+                if (a != "")
+                {
+                    frmDB frm2 = new frmDB();
+                    frm2.Show();
+                }
+                else
+                {
+                    counter++;
+                }
+                cn1.Close();
             }
-            
-            cn1.Close();
+            else
+            {
+                MessageBox.Show("3 Tries Exceeded, please restart the program :3)", "User Locked",
+    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
                 
         }
 
