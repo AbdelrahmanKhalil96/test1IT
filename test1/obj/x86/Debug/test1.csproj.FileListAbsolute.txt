@@ -7,3 +7,5 @@ c:\users\it5\documents\visual studio 2010\Projects\test1\test1\obj\x86\Debug\tes
 c:\users\it5\documents\visual studio 2010\Projects\test1\test1\obj\x86\Debug\test1.exe
 c:\users\it5\documents\visual studio 2010\Projects\test1\test1\obj\x86\Debug\test1.pdb
 c:\users\it5\documents\visual studio 2010\Projects\test1\test1\obj\x86\Debug\test1.FrmProdInfo.resources
+C:\Users\IT4\Documents\Visual Studio 2010\Projects\test1IT\test1\obj\x86\Debug\test1.exe
+C:\Users\IT4\Documents\Visual Studio 2010\Projects\test1IT\test1\obj\x86\Debug\test1.pdb

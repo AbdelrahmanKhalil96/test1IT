@@ -42,9 +42,9 @@
             // 
             this.txtLogin.Location = new System.Drawing.Point(111, 37);
             this.txtLogin.Name = "txtLogin";
-            this.txtLogin.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtLogin.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtLogin.Size = new System.Drawing.Size(85, 20);
-            this.txtLogin.TabIndex = 0;
+            this.txtLogin.TabIndex = 1;
             this.txtLogin.Text = "M.Yahia";
             // 
             // txtPass
@@ -53,7 +53,7 @@
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '#';
             this.txtPass.Size = new System.Drawing.Size(85, 20);
-            this.txtPass.TabIndex = 1;
+            this.txtPass.TabIndex = 2;
             this.txtPass.Text = "123456";
             // 
             // UserName
@@ -80,7 +80,7 @@
             this.btnLogin.Location = new System.Drawing.Point(30, 144);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
-            this.btnLogin.TabIndex = 4;
+            this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -101,7 +101,7 @@
             this.exitbtn.Location = new System.Drawing.Point(251, 144);
             this.exitbtn.Name = "exitbtn";
             this.exitbtn.Size = new System.Drawing.Size(75, 23);
-            this.exitbtn.TabIndex = 5;
+            this.exitbtn.TabIndex = 4;
             this.exitbtn.Text = "Exit";
             this.exitbtn.UseVisualStyleBackColor = true;
             this.exitbtn.Click += new System.EventHandler(this.exitbtn_Click);

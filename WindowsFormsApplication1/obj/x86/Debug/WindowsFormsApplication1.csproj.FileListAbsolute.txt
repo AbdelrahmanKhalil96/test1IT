@@ -8,3 +8,5 @@ c:\users\it4\documents\visual studio 2010\Projects\WindowsFormsApplication1\Wind
 c:\users\it4\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
 c:\users\it4\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
 c:\users\it4\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\IT4\Documents\Visual Studio 2010\Projects\test1IT\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\IT4\Documents\Visual Studio 2010\Projects\test1IT\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
