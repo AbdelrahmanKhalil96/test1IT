@@ -54,10 +54,17 @@ namespace test1
             if (dgvProd["ProductName", e.RowIndex].Value != null)
             {
                 int ProdID = int.Parse(dgvProd["ProductID", e.RowIndex].Value.ToString());
-                FrmProdInfo f = new FrmProdInfo(ProdID);
+                String CategoryName = dgvProd["CategoryName", e.RowIndex].Value.ToString();
+                String ProductName = dgvProd["ProductName", e.RowIndex].Value.ToString();
+                FrmProdInfo f = new FrmProdInfo(ProdID, CategoryName, ProductName);
                 f.Show();
                 
             }
+
+        }
+
+        private void dgvProd_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
 

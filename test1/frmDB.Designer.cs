@@ -54,6 +54,7 @@
             this.dgvProd.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvProd.Size = new System.Drawing.Size(420, 254);
             this.dgvProd.TabIndex = 0;
+            this.dgvProd.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProd_CellContentClick);
             this.dgvProd.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProd_CellDoubleClick);
             this.dgvProd.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProd_RowEnter);
             // 
